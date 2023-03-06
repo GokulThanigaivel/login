@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout</title>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+   <h1>Hello</h1> 
+   <py-script>
+    def calc(integer: int) -> int:
+        return integer
+
+    def zero(f=calc):
+        return f(0)
+
+    def one(f=calc):
+        return f(1)
+
+    def two(f=calc):
+        return f(2)
+
+    def three(f=calc):
+        return f(3)
+
+    def four(f=calc):
+        return f(4)
+
+    def five(f=calc):
+        return f(5)
+
+    def six(f=calc):
+        return f(6)
+
+    def seven(f=calc):
+        return f(7)
+
+    def eight(f=calc):
+        return f(8)
+
+    def nine(f=calc):
+        return f(9)
+
+    def plus(right: int):
+        return lambda left: left + right
+
+    def minus(right: int):
+        return lambda left: left - right
+
+    def times(right: int):
+        return lambda left: left * right
+
+    def divided_by(right):
+        return lambda left: left // right
+
+    a=input("Result :")
+    aa=eval(a)
+    print(a,"=",aa)
+    b=input("Result:")
+    bb=eval(b)
+    print(b,"=",bb)
+
+
+   </py-script>
+
+   <button type="submit"><a href="/signout">SignOut</a></button>
+
+</body>
+</html>
